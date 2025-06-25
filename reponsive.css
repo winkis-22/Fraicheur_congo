@@ -1,0 +1,41 @@
+/* Pour les écrans moyens (tablettes, max-width: 768px) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    .section {
+        padding: 10%;
+        margin-bottom: 20px;
+        box-shadow: none;
+    }
+    nav ul.nav_links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .img_enfant {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+/* Pour les petits écrans (mobiles, max-width: 480px) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+    .nav_links li {
+        margin-bottom: 10px;
+    }
+    .section {
+        padding: 5%;
+        font-size: 14px;
+    }
+    .img_enfant img {
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        text-align: center;
+        font-size: 12px;
+    }
+}
