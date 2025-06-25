@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site-index xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="site-index.xsd">
+    <metadata>
+        <title>Index du site Fraicheur du Congo</title>
+        <description>Indexation des contenus pour le site de vente de produits frais en RDC</description>
+        <generated-date>2023-11-15</generated-date>
+        <owner>KIAGA ENTERPRISE</owner>
+        <contact-email>winnerkisiwu0@gmail.com</contact-email>
+    </metadata>
+
+    <pages>
+        <!-- Page d'accueil -->
+        <page id="home" priority="1.0">
+            <url>index.html</url>
+            <title>Fraicheur du Congo - Vente de vivres frais en RDC</title>
+            <description>Boutique en ligne de produits frais congolais : viandes, légumes, fruits et épices</description>
+            <sections>
+                <section type="products">
+                    <category>Viandes</category>
+                    <category>Légumes et Fruits</category>
+                    <category>Autres produits</category>
+                </section>
+                <section type="promotion">
+                    <content>5% de réduction pour les achats en gros</content>
+                </section>
+            </sections>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+
+        <!-- Page A propos -->
+        <page id="about" priority="0.8">
+            <url>about.html</url>
+            <title>À propos de Fraicheur du Congo</title>
+            <description>Découvrez notre histoire, nos valeurs et nos services de livraison de produits frais à Kinshasa</description>
+            <content-blocks>
+                <block type="about">
+                    <heading>Qui Sommes Nous</heading>
+                    <text>Installé depuis 10 ans sur le marché de LIMETE (Kinshasa)</text>
+                </block>
+                <block type="services">
+                    <heading>Nos Services</heading>
+                    <item>Fraicheur garantie</item>
+                    <item>Approvisionnement local</item>
+                    <item>Hygiène rigoureuse</item>
+                </block>
+            </content-blocks>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+
+        <!-- Page Contact -->
+        <page id="contact" priority="0.7">
+            <url>contact.html</url>
+            <title>Contactez Fraicheur du Congo</title>
+            <description>Coordonnées et informations pour commander vos produits frais à Kinshasa</description>
+            <contact-info>
+                <address>Stand 45, Marché Central de Limete, Kinshasa, RDC</address>
+                <phone>+243 826 272 944</phone>
+                <email>winnerkisiwu0@gmail.com</email>
+                <hours>Ouvert de 7h à 18h, 7j/7</hours>
+            </contact-info>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+
+        <!-- Page FAQ -->
+        <page id="faq" priority="0.6">
+            <url>faq.html</url>
+            <title>Foire aux questions - Fraicheur du Congo</title>
+            <description>Réponses aux questions fréquentes sur nos produits et services</description>
+            <faq-items>
+                <item>
+                    <question>Où trouvez-vous vos produits ?</question>
+                    <answer>Avec des producteurs locaux de la RDC</answer>
+                </item>
+                <item>
+                    <question>Acceptez-vous les commandes en gros ?</question>
+                    <answer>5% de réduction pour 10kg+ par produit</answer>
+                </item>
+                <item>
+                    <question>Livrez-vous à domicile ?</question>
+                    <answer>Dans un rayon de 15km autour de Limete</answer>
+                </item>
+            </faq-items>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+
+        <!-- Pages Produits -->
+        <page id="products-veggies" priority="0.9">
+            <url>legumesEtFruits.html</url>
+            <title>Légumes et Fruits Frais - Fraicheur du Congo</title>
+            <description>Découvrez notre sélection de légumes et fruits frais cultivés en RDC</description>
+            <product-categories>
+                <category>Légumes</category>
+                <category>Fruits</category>
+            </product-categories>
+            <image-galleries>
+                <gallery type="legumes">
+                    <image>avocat.jpg</image>
+                    <image>beterave.jpg</image>
+                    <image>carotte.jpg</image>
+                </gallery>
+                <gallery type="fruits">
+                    <image>banane.jpg</image>
+                    <image>fraise_rdc.jpg</image>
+                    <image>maracuja.jpg</image>
+                </gallery>
+            </image-galleries>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+
+        <page id="products-meat" priority="0.9">
+            <url>viande.html</url>
+            <title>Viandes Fraîches - Fraicheur du Congo</title>
+            <description>Viandes de qualité élevées en plein air en RDC : bœuf, poulet, porc et poisson</description>
+            <product-types>
+                <type>Bœuf</type>
+                <type>Poulet</type>
+                <type>Porc</type>
+                <type>Poisson</type>
+            </product-types>
+            <image-gallery>
+                <image>boucherie.jpg</image>
+                <image>cote_porc.jpg</image>
+                <image>viande.jpg</image>
+            </image-gallery>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+
+        <page id="products-other" priority="0.8">
+            <url>divers.html</url>
+            <title>Produits Divers - Fraicheur du Congo</title>
+            <description>Céréales et épices locales de qualité pour compléter vos repas</description>
+            <product-types>
+                <type>Céréales</type>
+                <type>Épices</type>
+            </product-types>
+            <last-modified>2023-11-15</last-modified>
+        </page>
+    </pages>
+
+    <seo-recommendations>
+        <recommendation>Optimiser les balises meta avec des mots-clés locaux (Kinshasa, RDC, produits frais)</recommendation>
+        <recommendation>Ajouter des balises alt descriptives pour toutes les images</recommendation>
+        <recommendation>Créer un sitemap.xml pour les moteurs de recherche</recommendation>
+        <recommendation>Uniformiser les titres des pages (structure et langue)</recommendation>
+    </seo-recommendations>
+</site-index>
